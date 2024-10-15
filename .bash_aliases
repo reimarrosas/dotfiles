@@ -1,0 +1,41 @@
+# Bash
+alias src='. ~/.bashrc'
+alias la='ls -lLAh --color=auto'
+alias ls='ls -lLh --color=auto'
+alias grep='grep --color=auto'
+alias brc='nvim ~/.bashrc'
+alias bal='nvim ~/.config/aliases'
+alias md='mkdir -p'
+alias nnit='nvim ~/.config/nvim'
+alias c='clear'
+
+# Neovim
+alias vi='nvim'
+alias vim='nvim'
+alias vimdiff='nvim -d'
+
+# Package manager
+alias apt='sudo apt'
+alias upd='sudo apt update && sudo apt upgrade'
+
+# Git
+alias gs='git status'
+alias gca='git commit -a'
+alias gcm='git commit'
+alias ga='git add'
+alias gaa='git add -A'
+alias gd='git diff'
+alias gr='git reset'
+alias gre='git restore'
+alias gl='git log'
+alias gt='git stash'
+alias gc='git checkout'
+alias gb='git branch'
+alias gw='git show'
+alias gi='git init'
+alias gn='git clone'
+alias gcn='git clean'
+alias gps='git push'
+alias gpl='git pull'
+alias gm='git remote'
+alias gri='git rebase --interactive'
