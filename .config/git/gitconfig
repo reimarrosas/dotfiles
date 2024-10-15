@@ -1,0 +1,7 @@
+[user]
+	email = reimar@reimarrosas.me
+	name = Reimar Rosas
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
